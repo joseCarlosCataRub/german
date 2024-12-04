@@ -1,0 +1,12 @@
+{% extends 'furbo/base.html' %}
+
+{% block contenido %}
+<h1>lista equipos</h1>
+<ul>
+    {% for equipo in equipos %}
+       
+        <il>{{equipo.nombre}}</il>
+        
+    {% endfor %}
+</ul>
+{% endblock %}
